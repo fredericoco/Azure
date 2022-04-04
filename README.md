@@ -11,4 +11,9 @@ In order to create a windows virtual machine follow theses steps:
 - For inbound port rules, allow selected ports, choose RDP (3389)
 - In the disk have an SSD and a standard hardrive.
 - Click on review and create
-- Download the RDP file. 
+- Download the RDP file and put in your username and password you created earlier.
+- Well done you've accessed your VM.
+  
+When you're in the virtual machine pin the server manager to the taskbar for convinience.
+
+ Open a command terminal by typing cmd into the start bar. Type `ipconfig`. Go to local server, click on the ethernet link. Disable IPV 6 and go to the properties of IPV 4. Go to the DNS server address edit, put the `IPv4 Address` into the preffered DNS server in there. In the alternate DNS server put `8.8.8.8`.
